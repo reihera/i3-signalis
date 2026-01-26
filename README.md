@@ -2,6 +2,8 @@
 ## WITH THE NEW AGS/ASTAL UPDATE IT HAS COMPLETELY FUCKED EVERYTHING I HAVE WRITTEN!!!! PLEASEEEEEEEEE WAIT UNTIL I CAN FIX THIS!!!
 
 
+# As of January 26, 2026, Development is resumed.
+
 # SIGNALIS Hyprland dotfiles
 ![imagea](https://github.com/user-attachments/assets/7a7f62a3-8b63-428f-a486-0e0e003ce223)
 ![image](https://github.com/user-attachments/assets/ca2e825d-1aee-4f8b-84b7-1cb3f4e69262)
