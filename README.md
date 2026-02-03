@@ -10,11 +10,11 @@
 
 |   Objective   |    Status     |
 | ------------- | ------------- |
-| General Hyprland Look/Feel  | 60%  |
+| General Hyprland Look/Feel  | 40%  |
 | Waybar        | 25%  |
-| GTK Theme |   | 3%  |
+| GTK Theme |   | 0%  |
 | Kvantum Theme | 0%  |  
-| Kitty Terminal Theme | 40%  |
+| Kitty Terminal Theme | 20%  |
 | Install Script | 0%  | 
 
  
