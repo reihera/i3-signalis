@@ -13,7 +13,7 @@
 | General Hyprland Look/Feel  | 60%  |
 | Waybar        | 25%  |
 | GTK Theme |   | 3%  |
-| Kvantum Theme | 0%  | 
+| Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 40%  |
 | Install Script | 0%  | 
 
