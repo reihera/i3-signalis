@@ -1,8 +1,0 @@
-ACC1 - #f24701
-ACC2 - #0ba6db
-BGACTV - #eeeeee
-BTNBG -#bbbbbb
-BG -#333333
-TRMBG - #222222
-
-YLW - #fcac00

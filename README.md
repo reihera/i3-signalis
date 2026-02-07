@@ -4,17 +4,20 @@
 > [!NOTE]
 > As of January 26, 2026, development is resumed.
 
+>[!NOTE]
+> This project is migrating from Hyprland to i3, due to my unfamiliarity with Hyprland, as well as i3 configs are generally able to fit the theme of SIGNALIS far better. 
+
 > [!CAUTION]
 > This repo is going through a major rework, I am not responsible for any system damage that may occur.
 
 
 |   Objective   |    Status     |
 | ------------- | ------------- |
-| General Hyprland Look/Feel  | 40%  |
-| Waybar        | 25%  |
+| General i3 Look/Feel  | 60%  |
+| Polybar        | 0%  |
 | GTK Theme |   | 0%  |
 | Kvantum Theme | 0%  |  
-| Kitty Terminal Theme | 20%  |
+| Kitty Terminal Theme | 60%  |
 | Install Script | 0%  | 
 
  
@@ -22,5 +25,7 @@
 
 ## Contact
 
+X/Twitter: reihera_d
+WhatsApp: https://wa.me/qr/53JHBQ2L2IPUF1
+Discord: reihera 
 Telegram: https://t.me/reihera
-Due safety concerns regarding the government of my country, telegram is the only way to contact me moving forward. 
