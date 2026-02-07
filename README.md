@@ -14,7 +14,7 @@
 |   Objective   |    Status     |
 | ------------- | ------------- |
 | General i3 Look/Feel  | 75%  |
-| Polybar        | 70%  |
+| Polybar        | 95%  |
 | GTK Theme |   | 0%  |
 | Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 30%  |

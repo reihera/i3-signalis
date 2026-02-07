@@ -1,0 +1,62 @@
+entry {
+    placeholder: "";
+    text-color: #eeeeee;
+    padding: 8px 0 8px 8px;
+}
+
+configuration {
+    font: "Perfect DOS VGA 437 12";
+    lines: 10;
+    fixed-num-lines: true;
+    padding: 10px;
+}
+
+inputbar {
+    children: [entry];
+}
+
+* {
+    separatorcolor: transparent;
+    selected-normal-background: rgba(255,255,255, 5%);
+    normal-background: rgba(255,255,255, 0%);
+    alternate-normal-background: rgba(255,255,255, 0%);
+}
+
+mainbox {
+    border: 8px 3px 3px 3px;
+    border-color: #f24701;
+    border-radius: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+window {
+    border-radius: 0px 0px 0px 0px;
+    border: 2px solid;
+    border-color: #eeeeee;
+    background-color: rgba(26,27,38,85%);
+    padding: 5px;
+    width: 30%;
+}
+
+
+listview {
+    lines: 10;
+}
+
+element {
+    padding: 10px 10px;
+    height: 50px;
+    border-radius: 0px;
+    children: [ element-text, element-icon ];
+}
+
+element-text {
+    text-color: #eeeeee;
+}
+
+#scrollbar {
+    handle-color: #0ba6db;
+    handle-width: 4px ;
+    padding: 0;
+}
+
