@@ -1,6 +1,6 @@
 
 
-
+bindsym $mod+z floating toggle
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
@@ -19,7 +19,7 @@ bindsym $mod+d exec rofi -show drun
 bindsym  $mod+m exec kitty rmpc && i3-msg "[id=$(xdotool getactivewindow)] floating enable"
 # kill focused window
 bindsym $mod+c kill
-
+bindsym Print exec spectacle 
 # start dmenu (a program launcher)
 
 # A more modern dmenu replacement is rofi:
