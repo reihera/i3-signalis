@@ -13,11 +13,11 @@
 
 |   Objective   |    Status     |
 | ------------- | ------------- |
-| General i3 Look/Feel  | 75%  |
-| Polybar        | 95%  |
-| GTK Theme |   | 0%  |
+| General i3 Look/Feel  | 100%  |
+| Polybar        | 100%  |
+| GTK Theme |   | 5%  |
 | Kvantum Theme | 0%  |  
-| Kitty Terminal Theme | 30%  |
+| Kitty Terminal Theme | 100%  |
 | Install Script | 0%  | 
 
  

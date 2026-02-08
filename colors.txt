@@ -4,5 +4,9 @@ BGACTV - #eeeeee
 BTNBG -#bbbbbb
 BG -#333333
 TRMBG - #222222
-
+DRKRD - #57000b
+LTRD - #950015
 YLW - #fcac00
+RD - #93092b
+#a25557
+GRN - #5c7f24
