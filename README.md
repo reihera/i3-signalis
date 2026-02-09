@@ -1,5 +1,5 @@
-# Hypr-Signalis
-## Hyprland dotfiles meant to mimic the UI of the horror game SIGNALIS.
+# i3-Signalis
+## i3 dotfiles meant to mimic the UI of the horror game SIGNALIS.
 
 > [!NOTE]
 > As of January 26, 2026, development is resumed.
@@ -25,7 +25,6 @@
 
 ## Contact
 
+Matrix: @reihera:matrix.org
 X/Twitter: reihera_d
-WhatsApp: https://wa.me/qr/53JHBQ2L2IPUF1
-Discord: reihera 
 Telegram: https://t.me/reihera
