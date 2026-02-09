@@ -1,0 +1,7 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(0 -1036)">
+  <path d="m5 1050c-0.0389 1.38-1.19 2.47-2.57 2.43-1.38-0.042-2.47-1.19-2.43-2.57 0.0389-1.38 1.19-2.47 2.57-2.43 1.38 0.042 2.47 1.19 2.43 2.57" style="fill:#66bb6a"/>
+  <path d="m11 1052c-0.159-6.52-6.45-10.5-11-11v3c3.67 0.301 7.96 3.72 8 8" style="fill:#66bb6a"/>
+  <path d="m16 1052c0-9.6-8.63-15.7-16-16v3c6.76 0.747 13 6.28 13 13" style="fill:#66bb6a"/>
+ </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg height="16" version="1.1" width="16" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -1036.362)">
+  <g enable-background="new" fill="#42a5f5" transform="translate(0 1036.362)">
+   <path d="M4 4 4 9c0 1 1 1 1 1l4 0c1 0 1-1 1-1l-0-4-2-2-3 0c0 0-1 0-1 1zm1 0 2 0 0 2 2 0 0 3L5 9z" fill="#42a5f5"/>
+   <path d="m6 13-2 2c-1 1-1 1 0 1l8 0c1 0 1 0 0-1l-2-2 0-1-4 0z" fill="#42a5f5"/>
+   <path d="M2 0C.892 0 0 .892 0 2l0 9c0 1.108.892 2 2 2l12 0c1.108 0 2-.892 2-2L16 2C16 .892 15.108 0 14 0L2 0zm0 2 12 0 0 9-12 0 0-9z" fill="#42a5f5"/>
+  </g>
+ </g>
+</svg>

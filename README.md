@@ -15,10 +15,10 @@
 | ------------- | ------------- |
 | General i3 Look/Feel  | 100%  |
 | Polybar        | 100%  |
-| GTK Theme      |   5%  |
+| GTK Theme      |   100%  |
 | Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 100%  |
-| Install Script | 0%  | 
+| Install Script | 5%  | 
 
  
 

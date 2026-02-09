@@ -1,0 +1,16 @@
+<svg height="24" version="1.1" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+ <rect fill="#42a5f5" height="4" width="4" x="10" y="14"/>
+ <rect fill="#42a5f5" height="4" width="4" x="10" y="6"/>
+ <rect fill="#42a5f5" height="6" rx="1" width="22" x="1" y="9"/>
+ <rect fill="#486cd7" height="6" rx="1" width="22" x="1" y="1"/>
+ <rect fill="#f9f9f9" height="2" width="11" x="2" y="3"/>
+ <path d="m-5 17a2 2 0 1 1 -4 0 2 2 0 1 1 4 0z" fill="#f9f9f9" transform="matrix(.5 0 0 .5 19.5 -4.5)"/>
+ <path d="m-5 17a2 2 0 1 1 -4 0 2 2 0 1 1 4 0z" fill="#f9f9f9" transform="matrix(.5 0 0 .5 23.5 -4.5)"/>
+ <rect fill="#09b69e" height="6" rx="1" width="22" x="1" y="17"/>
+ <rect fill="#f9f9f9" height="2" width="11" x="2" y="19"/>
+ <path d="m-5 17a2 2 0 1 1 -4 0 2 2 0 1 1 4 0z" fill="#f9f9f9" transform="matrix(.5 0 0 .5 20.931 11.5)"/>
+ <path d="m-5 17a2 2 0 1 1 -4 0 2 2 0 1 1 4 0z" fill="#f9f9f9" transform="matrix(.5 0 0 .5 24.5 11.5)"/>
+ <rect fill="#f9f9f9" height="2" width="11" x="2" y="11"/>
+ <path d="m-5 17a2 2 0 1 1 -4 0 2 2 0 1 1 4 0z" fill="#f9f9f9" transform="matrix(.5 0 0 .5 19.5 3.5)"/>
+ <path d="m-5 17a2 2 0 1 1 -4 0 2 2 0 1 1 4 0z" fill="#f9f9f9" transform="matrix(.5 0 0 .5 23.5 3.5)"/>
+</svg>

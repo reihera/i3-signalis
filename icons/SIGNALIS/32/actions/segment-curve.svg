@@ -1,0 +1,4 @@
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <path d="m23 3v6h6v-6h-6zm2 2h2v2h-2v-2zm-22 18v6h6v-6h-6zm2 2h2v2h-2v-2z" style="fill:#313131"/>
+ <path transform="matrix(0 -1 -1 0 0 0)" d="m-6-23a17 17 0 0 1-17 17" style="fill:none;stroke-width:2;stroke:#dc322f"/>
+</svg>

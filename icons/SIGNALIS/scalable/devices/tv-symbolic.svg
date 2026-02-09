@@ -1,0 +1,10 @@
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter7554" x="0" y="0" width="1" height="1" style="color-interpolation-filters:sRGB">
+   <feBlend in2="BackgroundImage" mode="darken"/>
+  </filter>
+ </defs>
+ <g transform="translate(-485 119)" style="filter:url(#filter7554)">
+  <path d="m488-103c-2 0-2-2-2-2v-9s0-2 2-2h3.29l-1.04-1.03a1 1 0 0 1-0.965-0.258 1 1 0 0 1 0-1.41 1 1 0 0 1 0.717-0.293 1 1 0 0 1 0.697 0.293 1 1 0 0 1 0.258 0.965l1.74 1.74h0.586l1.75-1.74a1 1 0 0 1 0.256-0.967 1 1 0 0 1 0.725-0.293 1 1 0 0 1 0.689 0.293 1 1 0 0 1 0 1.41 1 1 0 0 1-0.965 0.258l-1.04 1.03h3.29c2 0 2 2 2 2v9c0 2-2 2-2 2zm8-1h1v-1h-1zm-8-3h10v-7h-10z" style="fill:#bebebe"/>
+ </g>
+</svg>

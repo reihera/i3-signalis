@@ -1,0 +1,18 @@
+<svg height="48" version="1.1" width="48" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -1004.362)">
+  <rect fill="#42a5f5" height="5" width="4" x="22" y="1032.362"/>
+  <rect fill="#42a5f5" height="5" width="4" x="22" y="1019.362"/>
+  <rect fill="#09b69e" height="10" rx="2" width="42" x="3" y="1036.362"/>
+  <rect fill="#42a5f5" height="10" rx="2" width="42" x="3" y="1023.362"/>
+  <rect fill="#486cd7" height="10" rx="2" width="42" x="3" y="1010.362"/>
+  <rect fill="#f9f9f9" height="4" width="21" x="6" y="1013.362"/>
+  <path d="m-5 17c0 1.105-.895 2-2 2-1.105 0-2-.895-2-2 0-1.105.895-2 2-2 1.105 0 2 .895 2 2z" fill="#f9f9f9" transform="translate(40 998.362)"/>
+  <path d="m-5 17c0 1.105-.895 2-2 2-1.105 0-2-.895-2-2 0-1.105.895-2 2-2 1.105 0 2 .895 2 2z" fill="#f9f9f9" transform="translate(47 998.362)"/>
+  <rect fill="#f9f9f9" height="4" width="21" x="6" y="1039.362"/>
+  <path d="m-5 17c0 1.105-.895 2-2 2-1.105 0-2-.895-2-2 0-1.105.895-2 2-2 1.105 0 2 .895 2 2z" fill="#f9f9f9" transform="translate(40 1024.362)"/>
+  <path d="m-5 17c0 1.105-.895 2-2 2-1.105 0-2-.895-2-2 0-1.105.895-2 2-2 1.105 0 2 .895 2 2z" fill="#f9f9f9" transform="translate(47 1024.362)"/>
+  <rect fill="#f9f9f9" height="4" width="21" x="6" y="1026.362"/>
+  <path d="m-5 17c0 1.105-.895 2-2 2-1.105 0-2-.895-2-2 0-1.105.895-2 2-2 1.105 0 2 .895 2 2z" fill="#f9f9f9" transform="translate(40 1011.362)"/>
+  <path d="m-5 17c0 1.105-.895 2-2 2-1.105 0-2-.895-2-2 0-1.105.895-2 2-2 1.105 0 2 .895 2 2z" fill="#f9f9f9" transform="translate(47 1011.362)"/>
+ </g>
+</svg>
