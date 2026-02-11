@@ -23,11 +23,11 @@
 | Font implementation | 0%  |
  
 Fonts used 
-> DINMittelschriftStd
-> monoMMM_5
-> Perfect DOS VGA 437
-> munro_small
-> visitor2
+- DINMittelschriftStd
+- monoMMM_5
+- Perfect DOS VGA 437
+- munro_small
+- visitor2
 
 
 
