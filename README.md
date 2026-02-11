@@ -19,7 +19,7 @@
 | Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 100%  |
 | Install Script | 5%  |
-| Kitty theming (oh-my-zsh, neofetch, etc) | 0%  |
+| Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 0%  |
  
 
