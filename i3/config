@@ -1,5 +1,12 @@
-# SIGNALIS-i3, by Reihera
-#
+#############################
+## SIGNALIS-i3, by Reihera ##
+#############################
+
+#####################
+## Keybindings and ##
+## autostart files ##
+#####################
+
 
 include $HOME/.config/i3/autostart 
 include $HOME/.config/i3/keybindings
@@ -8,92 +15,17 @@ include $HOME/.config/i3/keybindings
 
 
 
-### Autostart
-#
-# Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-font pango:monoMMM_5 10
 
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8:wq
 
-# Start XDG autostart .desktop files using dex. See also
-# https://wiki.archlinux.org/index.php/XDG_Autostart
-#exec --no-startup-id dex --autostart --environment i3
+#########################################
+## Don't really know what this does    ##
+## but too I'm too scared to delete it ##
+#########################################
 
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
-# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
-
-# Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-      #  bindsym j resize shrink width 10 px or 10 ppt
-       # bindsym k resize grow height 10 px or 10 ppt
-        #bindsym l resize shrink height 10 px or 10 ppt
-      #  bindsym ntilde resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-  #      bindsym Left resize shrink width 10 px or 10 ppt
-   #     bindsym Down resize grow height 10 px or 10 ppt
-    #    bindsym Up resize shrink height 10 px or 10 ppt
-     #   bindsym Right resize grow width 10 px or 10 ppt
-#
-        # back to normal: Enter or Escape or $mod+r
-#        bindsym Return mode "default"
- #       bindsym Escape mode "default"
-  #      bindsym $mod+r mode "default"
-}
-
-bindsym $mod+r mode "resize"
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-#bar {
-#        status_command i3status
-#}
-bindsym Menu exec rofi -show drun
-# >>> Plasma Integration <<<
-  # Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everything)
-  for_window [title="Desktop @ QRect.*"] kill, floating enable, border none
-  exec --no-startup-id wmctrl -c Plasma
-  for_window [title="Desktop — Plasma"] kill; floating enable; border none
-  
-  # Compositor (Animations, Shadows, Transparency)
-  exec --no-startup-id picom -cCFb
-#bindsym $mod+Shift+e exec "i3-nagbar " ...bindsym $mod+Shift+e exec "i3-nagbar " ...
-# >>> Window rules <<<
-  # >>> Avoid tiling Plasma popups, dropdown windows, etc. <<<
-  # For the first time, manually resize them, i3 will remember the setting for floating windows
-    for_window [class="yakuake"] floating enable;
-    for_window [class="lattedock"] floating enable;
-    for_window [class="plasmashell"] floating enable;
-    for_window [class="Kmix"] floating enable; border none
-    for_window [class="kruler"] floating enable; border none
-    for_window [class="Plasma"] floating enable; border none
-    for_window [class="Klipper"] floating enable; border none
-    for_window [class="krunner"] floating enable; border none
-    for_window [class="Plasmoidviewer"] floating enable; border none
-    for_window [title="plasma-desktop"] floating enable; border none
-    for_window [class="plasmashell" window_type="notification"] floating enable, border none, move position 1450px 20px
-    no_focus [class="plasmashell" window_type="notification"] 
-    for_window [class="xfce4-panel"] floating enable;
     for_window [class="wrapper-2.0"] floating enable;
   # >>> Avoid tiling for non-Plasma stuff <<<
     for_window [window_role="pop-up"] floating enable
@@ -108,9 +40,12 @@ bindsym Menu exec rofi -show drun
     for_window [window_type="panel"] floating enable
         for_window [instance="xfce4-panel"] floating enable
         for_window [instance="wrapper-2.0"] floating enable
-
     for_window [title="wrapper-2.0"] floating enable
-# appearance
+
+################
+## Appearance ##
+################
+font pango:monoMMM_5 10
 # gaps
 gaps inner 3px
 #gaps top 30pixel
