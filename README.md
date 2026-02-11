@@ -22,6 +22,13 @@
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 0%  |
  
+Fonts used 
+> DINMittelschriftStd
+> monoMMM_5
+> Perfect DOS VGA 437
+> munro_small
+> visitor2
+
 
 
 ## Contact
