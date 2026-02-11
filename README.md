@@ -25,6 +25,6 @@
 
 ## Contact
 
-Matrix: @reihera:matrix.org
+Matrix: @reihera:4d2.org
 X/Twitter: reihera_d
 Telegram: https://t.me/reihera
