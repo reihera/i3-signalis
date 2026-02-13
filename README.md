@@ -21,7 +21,9 @@
 | Install Script | 5%  |
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 0%  |
- 
+| Plymouth Theme  | 0%  |
+| Greeter theme  | 0%  |
+
 Fonts used 
 - DINMittelschriftStd
 - monoMMM_5
