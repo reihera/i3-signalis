@@ -11,6 +11,9 @@
 > This repo is going through a major rework, I am not responsible for any system damage that may occur.
 
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b68aaa74-39fa-4526-b3e0-70f64a887a29" />
+
+
 |   Objective   |    Status     |
 | ------------- | ------------- |
 | General i3 Look/Feel  | 100%  |
