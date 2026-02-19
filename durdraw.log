@@ -1,0 +1,40 @@
+{"timestamp": "2026-02-13T20:15:11.424273+01:00", "level": "INFO", "name": "durdraw.ui_curses", "msg": "UserInterface created", "data": {}}
+{"timestamp": "2026-02-13T20:15:11.426388+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 23}}
+{"timestamp": "2026-02-13T20:15:11.426493+01:00", "level": "INFO", "name": "durdraw.movie", "msg": "movie initialized", "data": {"sizeX": 80, "sizeY": 23}}
+{"timestamp": "2026-02-13T20:15:11.444436+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.444542+01:00", "level": "INFO", "name": "durdraw.movie", "msg": "movie initialized", "data": {"sizeX": 79, "sizeY": 109}}
+{"timestamp": "2026-02-13T20:15:11.446426+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.449506+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.452513+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.455366+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.458215+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.461106+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.463936+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:15:11.470884+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.602143+01:00", "level": "INFO", "name": "durdraw.ui_curses", "msg": "UserInterface created", "data": {}}
+{"timestamp": "2026-02-13T20:27:21.604268+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 23}}
+{"timestamp": "2026-02-13T20:27:21.604378+01:00", "level": "INFO", "name": "durdraw.movie", "msg": "movie initialized", "data": {"sizeX": 80, "sizeY": 23}}
+{"timestamp": "2026-02-13T20:27:21.624886+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.624992+01:00", "level": "INFO", "name": "durdraw.movie", "msg": "movie initialized", "data": {"sizeX": 79, "sizeY": 109}}
+{"timestamp": "2026-02-13T20:27:21.626954+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.630052+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.633139+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.636125+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.639285+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.642188+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.645163+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:21.652173+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 79, "height": 109}}
+{"timestamp": "2026-02-13T20:27:25.424574+01:00", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 25}}
+{"timestamp": "2026-02-13T20:27:25.424808+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 0, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:25.704114+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 0, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:27.412701+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 1, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:27.655385+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 2, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:27.838587+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 3, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:28.008399+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 4, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:28.192127+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 5, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:28.407217+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 6, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:28.673117+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 7, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:29.213743+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 6, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:29.486887+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 5, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:29.671387+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 4, "n_files": 11}}
+{"timestamp": "2026-02-13T20:27:30.577930+01:00", "level": "DEBUG", "name": "durdraw.ui_curses", "msg": "selected item number", "data": {"selected_item_number": 0, "n_files": 1}}

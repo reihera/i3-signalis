@@ -21,11 +21,14 @@
 | GTK Theme      |   100%  |
 | Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 100%  |
-| Install Script | 5%  |
+| Install Script | 60%  |
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 0%  |
 | Plymouth Theme  | 0%  |
 | Greeter theme  | 0%  |
+
+>[!NOTE] 
+> Install script is NOT done and currently only partially works and only works on Arch Linux.
 
 Fonts used 
 - DINMittelschriftStd
