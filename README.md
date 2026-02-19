@@ -23,7 +23,7 @@
 | Kitty Terminal Theme | 100%  |
 | Install Script | 60%  |
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
-| Font implementation | 0%  |
+| Font implementation | 100%  |
 | Plymouth Theme  | 0%  |
 | Greeter theme  | 0%  |
 
