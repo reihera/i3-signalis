@@ -15,7 +15,7 @@
 | GTK Theme      |   100%  |
 | Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 100%  |
-| Install Script | 67%  |
+| Install Script | 60%  |
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 100%  |
 | Plymouth Theme  | 0%  |
