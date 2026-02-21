@@ -6,6 +6,8 @@
 > Work in progress! Most things will need to be done manually! Install script does not work for anything other than Arch Linux currently! 
 
 
+![bar](https://github.com/user-attachments/assets/b778f2aa-c5d2-4c1a-a06d-3269fa754b7b)
+
 
 
 |   Objective   |    Status     |
@@ -25,12 +27,8 @@
 > Install script is NOT done and currently only works on Arch Linux.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b68aaa74-39fa-4526-b3e0-70f64a887a29" />
-Fonts used 
-- DINMittelschriftStd
-- monoMMM_5
-- Perfect DOS VGA 437
-- munro_small
-- visitor2
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/25397092-2ccf-4965-b331-fc29d654ebb9" />
 
 
 
