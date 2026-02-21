@@ -1,4 +1,5 @@
 #!/bin/bash
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 echo "$BASH_VERSION"
 echo "SIGNALISOS Install script version 0.05-indev"
 
@@ -57,7 +58,7 @@ if [[ $pm == "pacman" ]]; then
    
   else 
     echo "$aur AUR helper identified"
-    $aur -S git polybar picom rofi kitty neofetch dunst i3-wm
+    $aur -S git polybar picom rofi kitty neofetch dunst i3
     install_config()
   fi
 fi 
@@ -89,11 +90,15 @@ if [[ $pm == "dnf"]]; then
 fi 
  
 if [[ $pm == "apt"]]; then 
-  echo "apt package manager not implemented into install script."
-    read -p "Do you wish to install configs without checking for dependancy installation " yesno
+    read -p "Do you wish to install dependancies with their assosiated configuration files?" yesno
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
+            sudo apt install i3 git rofi kitty dunst polybar picom make
+            git clone https://github.com/dylanaraps/neofetch
+            cd neofetch 
+            make install
+            cd $SCRIPT_DIR 
             install_config()
         ;;
         [Nn]* ) 
@@ -161,10 +166,27 @@ fi
 
 
 # sorry nix users
-if [ "$distro" == "NixOS"]; then 
-  echo "I do not know NixOS package management, and I'm not about to learn. Good luck." 
-  exit 1 
+
+ if [[ $distro == "NixOS"]]; then 
+  echo "i don't know nixos package management and i'm not about to learn.."
+    read -p "Do you wish to install configs without checking for dependancy installation? " yesno
+    case $yesno in
+        [Yy]* ) 
+            echo "You answered yes"
+            install_config()
+        ;;
+        [Nn]* ) 
+            echo "You answered no, exiting"
+            exit 1
+        ;;
+        * ) echo "Answer either yes or no!";;
+    esac
+    
 fi 
+
+
+
+
 
 
 install_config () {
