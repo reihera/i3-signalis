@@ -29,14 +29,30 @@
 >[!NOTE]
 > Arch Linux installation requires one of the following AUR helpers: yay (reccomended), paru (reccomended), aurman (untested), aura (untested), pikaur (untested), trizen (untested), pakku (untested), pacaur (untested)
 
-First, clone the repo 
-```git clone https://github.com/reihera/i3-signalis.git```
-Then, cd into the directory 
-```cd i3-signalis```
-chmod install.sh 
-```chmod +x install.sh```
-finally, run install.sh 
-```./install.sh```
+- First, clone the repo
+
+#+begin_src sh
+git clone https://github.com/reihera/i3-signalis.git
+#+end_src
+
+- Then, cd into the directory
+
+#+begin_src sh
+cd i3-signalis
+#+end_src
+
+- chmod install.sh
+
+#+begin_src sh
+chmod +x install.sh
+#+end_src
+
+- finally, run install.sh 
+
+#+begin_src sh
+./install.sh 
+#+end_src 
+
 follow the instructions for installing dependancies and moving the configs. If you have existing configuration files within the directories, they will automatically be backed up into .config (i.e, ~/.config/polybar-backup/). 
 
 
