@@ -43,7 +43,7 @@ if [[ $pm == "pacman" ]]; then
   aur=$(pacman -Qq | grep -m 1 -e yay -e paru -e aurman -e aura -e pikaur -e trizen -e pakku -e pacaur)
   if [ ! "$aur" -a "$aur" != " " ]; then   
     echo "[FATAL] AUR Helper not identified! Please install one!"
-    read -p "Do you wish to install configs without checking for dependancy installation " yesno
+    read -p "Do you wish to install configs without checking for dependancy installation?" yesno
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
@@ -58,7 +58,7 @@ if [[ $pm == "pacman" ]]; then
    
   else 
     echo "$aur AUR helper identified"
-    $aur -S git polybar picom rofi kitty neofetch dunst i3
+    $aur -S git polybar picom rofi kitty neofetch dunst i3 python nitrogen playerctl 
     install_config()
   fi
 fi 
@@ -94,11 +94,15 @@ if [[ $pm == "apt"]]; then
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
-            sudo apt install i3 git rofi kitty dunst polybar picom make
+            sudo apt install i3 git rofi kitty dunst polybar picom make python nitrogen playerctl
             git clone https://github.com/dylanaraps/neofetch
             cd neofetch 
             make install
-            cd $SCRIPT_DIR 
+            cd $SCRIPT_DIR
+            git clone https://github.com/noctuid/zscroll
+            cd zscroll
+            sudo python3 setup.py install
+            cd $SCRIPT_DIR
             install_config()
         ;;
         [Nn]* ) 
