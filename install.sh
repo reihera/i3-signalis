@@ -1,7 +1,7 @@
 #!/bin/bash
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 echo "$BASH_VERSION"
-echo "SIGNALISOS Install script version 0.05-indev"
+echo "SIGNALISOS Install script version 0.50"
 
 # Move fonts
 sudo cp -a ./fonts/. /usr/share/fonts/ 
