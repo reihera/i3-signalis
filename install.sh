@@ -1,7 +1,7 @@
 #!/bin/bash
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 echo "$BASH_VERSION"
-echo "SIGNALISOS Install script version 0.50"
+echo "SIGNALISOS Install script version 0.62"
 
 # Move fonts
 sudo cp -a ./fonts/. /usr/share/fonts/ 
@@ -43,7 +43,7 @@ if [[ $pm == "pacman" ]]; then
   aur=$(pacman -Qq | grep -m 1 -e yay -e paru -e aurman -e aura -e pikaur -e trizen -e pakku -e pacaur)
   if [ ! "$aur" -a "$aur" != " " ]; then   
     echo "[FATAL] AUR Helper not identified! Please install one!"
-    read -p "Do you wish to install configs without checking for dependancy installation?" yesno
+    read -p "Do you wish to install configs without checking for dependancy installation (existing configuration files will be backed up into -backup folders, i.e, ~/.config/polybar-backup)?" yesno
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
@@ -58,8 +58,20 @@ if [[ $pm == "pacman" ]]; then
    
   else 
     echo "$aur AUR helper identified"
-    $aur -S git polybar picom rofi kitty neofetch dunst i3 python nitrogen playerctl 
-    install_config()
+    read -p "Do you wish to install dependancies with their assosiated configuration files? (existing configuration files will be backed up into -backup folders, i.e, ~/.config/polybar-backup)?" yesno
+    case $yesno in
+        [Yy]* )
+            echo "You answered yes"
+            $aur -S git polybar picom rofi kitty neofetch dunst i3 python nitrogen playerctl
+            install_config()
+        ;;
+        [Nn]* ) 
+            echo "You answered no, exiting"
+            exit 1
+        ;;
+        * ) echo "Answer either yes or no!";;
+    esac
+
   fi
 fi 
 
@@ -75,7 +87,7 @@ fi
 
 if [[ $pm == "dnf"]]; then 
   echo "dnf package manager not implemented into install script."
-    read -p "Do you wish to install configs without checking for dependancy installation " yesno
+    read -p "Do you wish to install configs without checking for dependancy installation (existing configuration files will be backed up into -backup folders, i.e, ~/.config/polybar-backup)?" yesno
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
@@ -89,8 +101,8 @@ if [[ $pm == "dnf"]]; then
     esac
 fi 
  
-if [[ $pm == "apt"]]; then 
-    read -p "Do you wish to install dependancies with their assosiated configuration files?" yesno
+if [[ $pm == "apt"]]; then
+  read -p "Do you wish to install dependancies with their assosiated configuration files? (existing configuration files will be backed up into -backup folders, i.e, ~/.config/polybar-backup) " yesno
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
@@ -116,7 +128,7 @@ fi
 
 if [[ $pm == "yum"]]; then 
   echo "yum package manager not implemented into install script."
-    read -p "Do you wish to install configs without checking for dependancy installation " yesno
+  read -p "Do you wish to install configs without checking for dependancy installation (existing configuration files will be backed up into -backup folders, i.e, ~/.config/polybar-backup)?" yesno
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
@@ -131,12 +143,18 @@ if [[ $pm == "yum"]]; then
     
 fi 
  
-if [[ $pm == "zypper"]]; then 
-  echo "zypper package manager not implemented into install script."
-    read -p "Do you wish to install configs without checking for dependancy installation " yesno
+if [[ $pm == "zypper"]]; then
+  read -p "Do you wish to install dependancies with their assosiated configuration files? (existing configuration files will be backed up into -backup folders, i.e, ~/.config/polybar-backup)?" yesno
     case $yesno in
         [Yy]* ) 
             echo "You answered yes"
+            git clone https://github.com/noctuid/zscroll
+            cd zscroll
+            sudo python3 setup.py install
+            zypper in kitty neofetch nitrogen cava picom polybar python playerctl  
+            cd $SCRIPT_DIR
+
+
             install_config()
         ;;
         [Nn]* ) 

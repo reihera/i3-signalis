@@ -1,0 +1,85 @@
+/* fix urlbar being too high in ff 128 */
+* {
+  --urlbar-toolbar-height: 32px !important;
+  --urlbar-container-height: 32px !important;
+}
+
+#TabsToolbar {
+  visibility: collapse !important;
+}
+
+/* Keeps the .titlebar-spacer[type="pre-tabs"] and [type="post-tabs"] consistent in all window sizes */
+:root:not([sizemode="normal"]) .titlebar-spacer[type="pre-tabs"] {
+  display: block !important;
+}
+@media (max-width: 500px) {
+  .titlebar-spacer[type="post-tabs"] {
+    display: block !important;
+  }
+}
+
+/* Deactivating close, minimize and maximize buttons */
+.tab-close-button,
+#TabsToolbar .toolbarbutton-1,
+.titlebar-buttonbox-container {
+  display: none !important;
+}
+
+/* hide stuff */
+
+.urlbar-page-action {
+  display: none;
+}
+
+#nav-bar {
+  border-top: var(--border-width) !important;
+}
+
+#navigator-toolbox {
+  margin: 8px;
+  padding: 4px !important;
+  border-bottom: var(--border-width)!important;
+  border-style: solid !important;
+  border-width: var(--border-width);
+  border-color: #f24701 !important;
+  border-radius: var(--rounding);
+  transition: border-color var(--border-transition) !important;
+  &::before {
+    content: "navbar";
+    background-color: #212121;
+    position: absolute;
+    margin: -18px 8px;
+    padding: 0 2px;
+    z-index: 2;
+    font-size: 1.15em;
+  }
+  &:hover,
+  &:focus {
+    border-color: #eeeeee !important;
+  }
+  &:hover::before {
+/*    color: var(--accent);*/
+  }
+}
+
+:root[tabsintitlebar] #toolbar-menubar[autohide="true"] {
+  --tab-min-height: fit-content !important;
+  min-height: fit-content !important;
+  padding-top: 3px !important;
+}
+
+#PlacesToolbarItems {
+  display: flex;
+  justify-content: center;
+}
+
+.browser-toolbar {
+  &:not(.titlebar-color) {
+  background-color: transparent !important;
+  }
+}
+
+  #reload-button:hover, .toolbarbutton:hover {
+  background-color: #eeeeee !important;
+}
+

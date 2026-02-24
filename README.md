@@ -17,12 +17,11 @@
 | GTK Theme      |   100%  |
 | Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 100%  |
-| Install Script | 75%  |
+| Install Script | 80%  |
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 100%  |
-| Plymouth Theme  | 0%  |
-| Greeter theme  | 0%  |
-
+| Greeter theme  | 25%  |
+| Firefox userChrome.css theming  | 30%  | 
 
 ## Installation instructions 
 
