@@ -3,8 +3,7 @@
 
 
 > [!CAUTION]
-> Work in progress! Most things will need to be done manually! Install script does not work for anything other than Arch Linux and Debian-based distributions currently! If your package manager is not one of the following, pacman, dnf, apt, yum, zypper, or rpm, support for your package manager is __not__ planned. (i.e, NixOS support is not planned to be implemented. You can still use the install script, it will just not automatically install dependancies for you. Depenancies needed for install are listed below.)
-
+> Work in progress! Install script is done but untested, be very careful using it, and please make an issue if ther is any errors!
 
 ![bar](https://github.com/user-attachments/assets/b778f2aa-c5d2-4c1a-a06d-3269fa754b7b)
 
@@ -17,7 +16,7 @@
 | GTK Theme      |   100%  |
 | Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 100%  |
-| Install Script | 80%  |
+| Install Script | 95%  |
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 100%  |
 | Greeter theme  | 25%  |
