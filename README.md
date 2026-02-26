@@ -14,13 +14,11 @@
 | General i3 Look/Feel  | 100%  |
 | Polybar        | 100%  |
 | GTK Theme      |   100%  |
-| Kvantum Theme | 0%  |  
 | Kitty Terminal Theme | 100%  |
-| Install Script | 95%  |
+| Install Script | 100%  |
 | Kitty theming (oh-my-zsh, neofetch, etc) | 70%  |
 | Font implementation | 100%  |
-| Greeter theme  | 25%  |
-| Firefox userChrome.css theming  | 30%  | 
+| Firefox userChrome.css theming  | 100%  | 
 
 ## Installation instructions 
 

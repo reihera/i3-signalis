@@ -58,30 +58,6 @@ if [[ $pm ]]
 fi 
 
 
-#dependancy_install() {
-#  if [[ $pm == "apt"]]; then
-#    read -p "Do you wish to install dependancies with their assosiated configuration files? (existing configurat#ion files will be backed up into -backup folders, i.e, ~/.config/polybar-backup) " yesno
-#      case $yesno in
-#          [Yy]* ) 
-#            echo "You answered yes"
-#            sudo $() install i3 git rofi kitty dunst polybar picom make python nitrogen playerctl
-#            git clone https://github.com/dylanaraps/neofetch
-#            cd neofetch 
-#            make install
-#            cd $SCRIPT_DIR
-#            git clone https://github.com/noctuid/zscroll
-#            cd zscroll
-#            sudo python3 setup.py install
-#            cd $SCRIPT_DIR
-#            install_config()
-#          ;;
-#          [Nn]* ) 
-#            echo "You answered no, exiting"
-#            exit 1
-#          ;;
-#          * ) echo "Answer either yes or no!";;
-#    esac
-#fi 
 deps="kitty polybar picom python nitrogen cava playerctl"
 
 if [[ $pm == "pacman" ]]; then
@@ -151,7 +127,7 @@ install_config () {
             echo "You answered yes"
             sudo mv -a ./fonts/. /usr/share/fonts/ 
             echo "Fonts moved to /usr/share/fonts/"
-           if [ -d "$HOME/.config/polybar/" ]; then
+          if [ -d "$HOME/.config/polybar/" ]; then
             echo "Polybar directory exists."
             mv $HOME/.config/polybar/. $HOME/.config/polybar-backup
             mv -a ./polybar/. $HOME/.config/polybar
@@ -200,16 +176,74 @@ install_config () {
          ;;
         [Nn]* ) 
             echo "You answered no, exiting"
-            exit 1
+            break
         ;;
         * ) echo "Answer either yes or no!";;
     esac
      
 }
 
+browsers=("firefox" "floorp" "Quit")
 
+firefoxchrome() {
+  read -p "Do you wish to go through the Firefox/Firefox based browser (librewolf, floorp, zen(may not work correctly), etc) userChrome installation? [y/n]: " yesno 
+  case $yesno in
+    [Yy]* )
+      PS3="Please select your Firefox-based browser! WARNING! If you have the Flatpak version of your browser installed, the installation will fail! Configuration files must be located in home directory! (i.e, ~/.firefox) [1-3]: "
+      select opt in "${browsers[@]}"
+      do 
+        case $opt in 
+          "firefox")
+          browser=firefox
+          echo "Firefox browser selected"
+          checkdir
+          break
+        ;;
+          "floorp")
+          browser=floorp
+          checkdir
+          echo "Floorp browser selected"
+          break
+        ;;
+        "Quit")
+          echo "exiting firefox userChrome installation."
+          break
+        ;; 
+      esac
+      done
+      ;;
+  [Nn]* )
+    echo "operation cancelled"
+    break 
+  esac
 
+}
 
+checkdir() {
+  PS3="Select current profile. If you do not know what it is, navigate to about:profiles in your browser and check which one is active! [1-x]: "
+
+  select browserdir in $HOME/.$browser/*; do 
+    if [[ -d "$browserdir" ]]; then 
+      echo "$browserdir selected"
+      read -p "Proceed with userChrome installation to $HOME/.$browser/$browserdir/chrome? existing configuration files will be backed up to $HOME/.$browser/$browserdir/chrome-backup! [y/n]: " yesno 
+      case $yesno in 
+        [Yy]* )
+          mkdir $HOME/.$browser/$browserdir/chrome-backup 
+          mv $HOME/.$browser/$browserdir/chrome/. $HOME/.$browser/$browserdir/chrome-backup/
+          mv ./geckochrome/chrome/. $HOME/.$browser/$browserdir/chrome/
+        ;;
+        [Nn]* )
+          echo "operation cancelled."
+          break 
+        esac 
+    else 
+      echo "Invalid option"
+    fi 
+  done  
+
+}
+
+firefoxchrome
 dependancy_install
 install_config
 echo "please restart computer for changes to take effect!"
