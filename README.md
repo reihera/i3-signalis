@@ -1,6 +1,11 @@
 # i3-Signalis
 ## i3 dotfiles meant to mimic the UI of the horror game SIGNALIS.
 
+> [!CAUTION]
+> this shit does NOT work lmfao 
+
+
+
 
 > [!CAUTION]
 > Work in progress! Install script is done but untested, be very careful using it, and please make an issue if ther is any errors!
